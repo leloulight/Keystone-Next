@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright 2015 Oliver Cooper
+
+    No, you can't use this. Make your own.
+ -->
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"> 
+	<defs>
+        <mask id="mask">
+            <rect width="100%" height="100%" fill="white"/>
+            <circle cx="16" cy="16" r="16">
+				<animate id="hollow" keySplines="0.365 0.025 0.83 0.405" keyTimes="0; 1" calcMode="spline" attributeName="r" from="0" to="16" dur="0.35s" begin="full.end-0.1s;" />  
+            </circle>
+        </mask>
+    </defs>
+
+    <circle cx="16" cy="16" r="0" fill="#16739A">
+        <animate id="full" keySplines="0.15 0.72 0.67 0.9" keyTimes="0; 1" calcMode="spline" attributeName="r" from="0" to="16" dur="1.7s" begin="0s; hollow.end;"/>  
+    </circle>
+    <circle cx="16" cy="16" r="16" fill="transparent" mask="url(#mask)">
+        <set attributeName="fill" to="#16739A" begin="full.end;" dur="0.4s"/>
+    </circle>
+</svg> 

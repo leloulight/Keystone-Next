@@ -1,0 +1,1179 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN">
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <meta name="keywords" content="Keystone" />
+    <meta name="Description" content="Keystone" />
+
+    <link rel="stylesheet" type="text/css" href="/Style%20Library/en-US/Themable/Core%20Styles/controls.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/en-US/Core%20Styles/page-layouts-21.css"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/1033/styles/portal.css?rev=HrVGmdKYAXR7MyBaESL4eg%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/1033/styles/Themable/corev4.css?rev=NXFriOmAEGvGJYMyhNGzZw%3D%3D"/>
+
+    <script type="text/javascript">
+//<![CDATA[
+	    var _fV4UI = true;
+//]]>
+	</script>
+    <script type="text/javascript">
+// <![CDATA[
+document.write('<script type="text/javascript" src="/_layouts/1033/init.js?rev=7rurhilS20pNrVcviE3PbA%3D%3D"></' + 'script>');
+document.write('<script type="text/javascript" src="/ScriptResource.axd?d=efNzAP2CxsgmUBSDsEHY3YhUhXkObkbmGIvtMMiRC_4JGa7r2sgjNZTd6DYPGU-Ei3YnT4aVdJEZK7VPlNY3bnMvU89pfYTncYo4zxQu2jh8Dcg1wA2NMs4cN_vZnaRoXF3y3pQs1XRm25oUXT2Ja94t5gw1&amp;t=2e2045e2"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/blank.js?rev=QGOYAJlouiWgFRlhHVlMKA%3D%3D"></' + 'script>');
+document.write('<script type="text/javascript" src="/ScriptResource.axd?d=nEcHTUXgnC5EXRhhw0Kyo4Q36A71eK-aGMZ1rJHmx1uEu_7XaITTEhLRDh7NqeqLJc7tFxNWjan7RFRzS426QQgMsdtE9HuCjtiWi7_o3HvilOA5yhtP0Gv4MdMnkb04SWQApLYzOE2RVX-JsUDtCiRbFNhHPYHs43SHb_vtsjDhx35a0&amp;t=2e2045e2"></' + 'script>');
+// ]]>
+</script>
+
+
+    <link type="text/css" rel="stylesheet" href="/_layouts/kbng/Styles/common.css?ver=34" />
+    <link type="text/css" rel="stylesheet" href="/_layouts/kbng/Styles/custom.css?ver=34" />
+    <link type="text/css" media="print" rel="stylesheet" href="/_layouts/kbng/Styles/print.css?ver=34" />
+
+	<link href="//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.21/themes/smoothness/jquery-ui.css" rel="Stylesheet" type="text/css" />
+	<script src="//ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.21/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		if (typeof jQuery == 'undefined') {
+			document.write(unescape("%3Clink href='/_layouts/StPeters.Keystone/_shared/jq/smoothness/jquery-ui-1.8.21.custom.css' rel='Stylesheet' type='text/css' /%3E"));
+			document.write(unescape("%3Cscript src='/_layouts/StPeters.Keystone/_shared/jq/jquery-1.7.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+			document.write(unescape("%3Cscript src='/_layouts/StPeters.Keystone/_shared/jq/jquery-ui-1.8.21.min.js' type='text/javascript'%3E%3C/script%3E"));
+		}
+	</script>
+
+    <script src="/_layouts/kbng/Scripts/jq/jquery.autocomplete.js?ver=5" type="text/javascript"></script>
+    <script src="/_layouts/kbng/Scripts/jq/jquery.tmpl.js?ver=5" type="text/javascript"></script>
+    <script src="/_layouts/kbng/Scripts/jq/jquery.bgiframe.min.js?ver=5" type="text/javascript"></script>
+    <script src="/_layouts/kbng/Scripts/jq/jquery.datepick-en-GB.js?ver=5" type="text/javascript"></script>
+    <script src="/_layouts/kbng/Scripts/jq/jquery.tipsy.js?ver=5" type="text/javascript"></script>
+
+    <script src="/_layouts/kbng/Flowplayer/flowplayer-3.2.4.min.js?ver=5" type="text/javascript"></script>
+    <script src="/_layouts/kbng/Flowplayer/flowplayer.ipad-3.2.1.min.js?ver=5" type="text/javascript"></script>
+
+    <link type="text/css" rel="stylesheet" href="/_layouts/kbng/Styles/global.css?ver=34" />
+
+	
+	
+    
+
+	
+
+<!-- References -->
+<script type="text/javascript" src="/_layouts/StPeters.Keystone/Notifications/js/jquery.jgrowl_minimized.js?v=6"></script>
+<script type="text/javascript" src="/_layouts/StPeters.Keystone/Notifications/js/jquery.SPServices-0.7.2.min.js?v=6"></script>
+<script type="text/javascript" src="/_layouts/StPeters.Keystone/Notifications/js/SPNotifications.js?v=6"></script>
+<link rel="Stylesheet" type="text/css" href="/_layouts/StPeters.Keystone/Notifications/css/jquery.jgrowl.black.css?v=6" />
+
+<!-- Script -->
+<script language="javascript" type="text/javascript">
+	var query = "<Query><OrderBy><FieldRef Name='DeliveryDate' Ascending='False' /><FieldRef Name='ID' Ascending='False' /></OrderBy><Where><And><And><Eq><FieldRef Name='TargetedTo' /><Value Type='Integer'><UserID Type='Integer' /></Value></Eq><Leq><FieldRef Name='DeliveryDate' /><Value Type='DateTime'><Today /></Value></Leq></And><Eq><FieldRef Name='ReadStatus' /><Value Type='Choice'>Unread</Value></Eq></And></Where></Query>";
+	var fields = "<ViewFields><FieldRef Name='Title' /><FieldRef Name='NotificationDesc' /><FieldRef Name='Author' /><FieldRef Name='DeliveryDate' /></ViewFields>";
+
+	jQuery(document).ready(function ($) {
+	    $('body').prepend('<div id="one" class="jGrowl bottom-right"><div id="onecontext"><span id="onecontext-my" class="contselected" onclick="SwitchNotPan(\'MM\');">My Messages</span><span id="onecontext-nb" class="" onclick="SwitchNotPan(\'NB\');">Noticeboard</span><span id="onecontext-arch" class="" onclick="SwitchNotPan(\'A\');">Archive</span></div><div id="onecontent"></div><div id="onekbnb"></div></div><div id="two" class="jGrowl bottom-left"></div>');
+	    ShowNotifications();
+	    $('#toplinksright a').hover(function () { $(this).stop().animate({ opacity: 0.85 }); }, function () { $(this).stop().animate({ opacity: 0.5 }) });
+	    if ($('#s4-ribbonrow').css('display') === 'block') { $('#toplinksright').addClass('ribbonvis'); }
+	});
+</script>
+<!-- _lcid="1033" _version="14.0.4758" _dal="1" -->
+<!-- _LocalBinding -->
+<span id="ctl00_head_ctl06_iprRibbon"><span></span></span>
+
+
+
+
+<script type="text/javascript" language="javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26376672-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+    <link rel="shortcut icon" href="/_layouts/kbng/favicon.ico?ver=5" type="image/vnd.microsoft.icon" />
+
+    
+    
+
+    
+
+    <script src="/_layouts/kbng/Scripts/kbcore.js?ver=36" type="text/javascript"></script>
+    <script src="/_layouts/kbng/Scripts/jq/global.js?ver=34" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">var FlowPlayerKey = 'ca8f02072b774efcc6c';</script>
+
+<!-- the title all needs to be on one line. Page.Title reads in a string and gets stuck with this as CRLF are interpreted incorrectly -->
+<title>
+	
+	SportZone
+	 - Keystone
+</title><style type="text/css">
+	.s4-skipribbonshortcut { display:none; }
+	.ctl00_PlaceHolderMain_WebPartZoneHeader_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneTopRow_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneTopLeftColumn_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneTopMiddleColumn_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneTopRightColumn_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneMiddleRow_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneBottomLeftColumn_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneBottomMiddleColumn_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneBottomRightColumn_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneBottom_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneFooter_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_wpz_0 { border-color:Black;border-width:1px;border-style:Solid; }
+
+</style></head>
+<body onload="javascript:if (typeof(_spBodyOnLoadWrapper) != 'undefined') _spBodyOnLoadWrapper();">
+	<form name="aspnetForm" method="post" action="SportZone.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0xBB18EF3ECF9C12A6FCF827765B3DFCE692C7A0F91FF300BFBCAF9A8E0F741C8A480F00295319C11453ACFBE293E28A0707A5146DB3AEF008990C342F4E626B6A,17 May 2015 04:31:22 -0000" />
+<input type="hidden" name="MSOAuthoringConsole_FormContext" id="MSOAuthoringConsole_FormContext" value="" />
+<input type="hidden" name="MSOAC_EditDuringWorkflow" id="MSOAC_EditDuringWorkflow" value="" />
+<input type="hidden" name="InputComments" id="InputComments" value="" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="_maintainWorkspaceScrollPosition" id="_maintainWorkspaceScrollPosition" value="0" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWBAIBD2QWAgIDD2QWAmYPZBYCAgEPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAgMPZBYGAgQPZBYIBSZnXzQ0ZjYxNGM4X2Y2YzJfNDViNV85NDI1Xzg4NThhNTQwOWU4OQ8PFgYeC1BhcmFtVmFsdWVzMt8GAAEAAAD/////AQAAAAAAAAAMAgAAAFhNaWNyb3NvZnQuU2hhcmVQb2ludCwgVmVyc2lvbj0xNC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03MWU5YmNlMTExZTk0MjljBQEAAAA9TWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLlBhcmFtZXRlck5hbWVWYWx1ZUhhc2h0YWJsZQEAAAAFX2NvbGwDHFN5c3RlbS5Db2xsZWN0aW9ucy5IYXNodGFibGUCAAAACQMAAAAEAwAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuSGFzaHRhYmxlBwAAAApMb2FkRmFjdG9yB1ZlcnNpb24IQ29tcGFyZXIQSGFzaENvZGVQcm92aWRlcghIYXNoU2l6ZQRLZXlzBlZhbHVlcwAAAwMABQULCBxTeXN0ZW0uQ29sbGVjdGlvbnMuSUNvbXBhcmVyJFN5c3RlbS5Db2xsZWN0aW9ucy5JSGFzaENvZGVQcm92aWRlcgjsUTg/JAAAAAoKFwAAAAkEAAAACQUAAAAQBAAAAAsAAAAGBgAAAA1NYW51YWxSZWZyZXNoBgcAAAAIQ3VyclVzZXIGCAAAAAxuZXh0cGFnZWRhdGEGCQAAAAtNYXhpbXVtUm93cwYKAAAACkZpbHRlckxpbmsGCwAAABFkdnRfc3RhcnRwb3NpdGlvbgYMAAAADVN0YXJ0Um93SW5kZXgGDQAAAAZMaXN0SUQGDgAAABBkdnRfbmV4dHBhZ2VkYXRhBg8AAAAFVG9kYXkGEAAAAAZVc2VySUQQBQAAAAsAAAAGEQAAAAVGYWxzZQYSAAAADHNhaW50c1w2MDgyOQYTAAAAATAGFAAAAAExBhUAAAABPwYWAAAAAAYXAAAAATAGGAAAACZ7MzRkOGQzOGUtZTYxOC00ZTJjLTliMGUtYTQ2MDAwNTIyZWExfQYZAAAASFBhZ2VkPVRSVUUmcF9EYXRlX3gwMDIwX2FuZF94MDAyMF9UaW1lPTIwMTUwNTEyJTIwMTAlM2EwMCUzYTAwJnBfSUQ9Njg3OQYaAAAAFDIwMTUtMDUtMTdUMTQ6MDE6MjNaBhsAAAANT2xpdmVyIENvb3BlcgseEEZpbHRlck9wZXJhdGlvbnMyjQUAAQAAAP////8BAAAAAAAAAAQBAAAAkwJTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5EaWN0aW9uYXJ5YDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW01pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24sIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE0LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWNdXQMAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQADAAiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCAAAAAAJAgAAAAAAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0AAAAACx4VQ29vbm5lY3Rpb25EaWN0aW9uYXJ5MtwEAAEAAAD/////AQAAAAAAAAAEAQAAAOIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQMAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQADAAiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCAAAAAAJAgAAAAAAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0AAAAAC2RkBSZnXzIwMGNjMjA1XzYyNzFfNGZmN184MWI2XzExNWFkZDYzN2U4Mg8PFgYfATLFBQABAAAA/////wEAAAAAAAAADAIAAABYTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwUBAAAAPU1pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5QYXJhbWV0ZXJOYW1lVmFsdWVIYXNodGFibGUBAAAABV9jb2xsAxxTeXN0ZW0uQ29sbGVjdGlvbnMuSGFzaHRhYmxlAgAAAAkDAAAABAMAAAAcU3lzdGVtLkNvbGxlY3Rpb25zLkhhc2h0YWJsZQcAAAAKTG9hZEZhY3RvcgdWZXJzaW9uCENvbXBhcmVyEEhhc2hDb2RlUHJvdmlkZXIISGFzaFNpemUES2V5cwZWYWx1ZXMAAAMDAAUFCwgcU3lzdGVtLkNvbGxlY3Rpb25zLklDb21wYXJlciRTeXN0ZW0uQ29sbGVjdGlvbnMuSUhhc2hDb2RlUHJvdmlkZXII7FE4PxUAAAAKChcAAAAJBAAAAAkFAAAAEAQAAAAHAAAABgYAAAANTWFudWFsUmVmcmVzaAYHAAAADGR2dF9maXJzdHJvdwYIAAAACEN1cnJVc2VyBgkAAAAKRmlsdGVyTGluawYKAAAABkxpc3RJRAYLAAAABVRvZGF5BgwAAAAGVXNlcklEEAUAAAAHAAAABg0AAAAFRmFsc2UGDgAAAAExBg8AAAAABhAAAAAmP0ZpbHRlckZpZWxkMT0lNDBJRCZGaWx0ZXJWYWx1ZTE9Njg3OSYGEQAAACZ7MzREOEQzOEUtRTYxOC00RTJDLTlCMEUtQTQ2MDAwNTIyRUExfQYSAAAAFDIwMTUtMDUtMTdUMTQ6MDE6MjRaBhMAAAANT2xpdmVyIENvb3BlcgsfAjLqDgABAAAA/////wEAAAAAAAAABAEAAACTAlN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLkZpbHRlck9wZXJhdGlvbiwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5Y11dBAAAAAdWZXJzaW9uCENvbXBhcmVyCEhhc2hTaXplDUtleVZhbHVlUGFpcnMAAwADCJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0IlwJTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLkZpbHRlck9wZXJhdGlvbiwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5Y11dW10BAAAACQIAAAADAAAACQMAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0AAAAABwMAAAAAAQAAAAEAAAADlQJTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLkZpbHRlck9wZXJhdGlvbiwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5Y11dDAUAAABYTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwT8////lQJTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLkZpbHRlck9wZXJhdGlvbiwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5Y11dAgAAAANrZXkFdmFsdWUBBDFNaWNyb3NvZnQuU2hhcmVQb2ludC5XZWJQYXJ0UGFnZXMuRmlsdGVyT3BlcmF0aW9uBQAAAAYGAAAAA0BJRAkHAAAABQcAAAAxTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLkZpbHRlck9wZXJhdGlvbgYAAAANbV9GaWx0ZXJWYWx1ZQxtX0ZpbHRlckRhdGERbV9Jc0ZpZWxkTG9va3VwSWQSbV9Jc0Zyb21Db25uZWN0aW9uD21fT3BlcmF0aW9uVHlwZRRtX2JJc0Zyb21RdWVyeVN0cmluZwEBAAABAAEBAQUAAAAGCAAAAAQ2ODc5CgABCgELHwMy2goAAQAAAP////8BAAAAAAAAAAQBAAAA4gFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5EaWN0aW9uYXJ5YDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dBAAAAAdWZXJzaW9uCENvbXBhcmVyCEhhc2hTaXplDUtleVZhbHVlUGFpcnMAAwADCJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0I5gFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV1bXQEAAAAJAgAAAAMAAAAJAwAAAAQCAAAAkgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQAAAAAHAwAAAAABAAAAAQAAAAPkAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLktleVZhbHVlUGFpcmAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQT8////5AFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0CAAAAA2tleQV2YWx1ZQEBBgUAAAACSUQGBgAAAAQ2ODc5C2RkBSZnXzcxODdhZDNhXzk3MzRfNGVjZV9hOWExXzBlNGI3NGU5OTc1YQ8PFgYfATLSBQABAAAA/////wEAAAAAAAAADAIAAABYTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwUBAAAAPU1pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5QYXJhbWV0ZXJOYW1lVmFsdWVIYXNodGFibGUBAAAABV9jb2xsAxxTeXN0ZW0uQ29sbGVjdGlvbnMuSGFzaHRhYmxlAgAAAAkDAAAABAMAAAAcU3lzdGVtLkNvbGxlY3Rpb25zLkhhc2h0YWJsZQcAAAAKTG9hZEZhY3RvcgdWZXJzaW9uCENvbXBhcmVyEEhhc2hDb2RlUHJvdmlkZXIISGFzaFNpemUES2V5cwZWYWx1ZXMAAAMDAAUFCwgcU3lzdGVtLkNvbGxlY3Rpb25zLklDb21wYXJlciRTeXN0ZW0uQ29sbGVjdGlvbnMuSUhhc2hDb2RlUHJvdmlkZXII7FE4PxkAAAAKChcAAAAJBAAAAAkFAAAAEAQAAAAHAAAABgYAAAANTWFudWFsUmVmcmVzaAYHAAAADGR2dF9maXJzdHJvdwYIAAAABVRvZGF5BgkAAAAKRmlsdGVyTGluawYKAAAABkxpc3RJRAYLAAAACUxvZ29uVXNlcgYMAAAABlVzZXJJRBAFAAAABwAAAAYNAAAABUZhbHNlBg4AAAABMQYPAAAAFDIwMTUtMDUtMTdUMTQ6MDE6MjRaBhAAAAAmP0ZpbHRlckZpZWxkMT0lNDBJRCZGaWx0ZXJWYWx1ZTE9Njg3OSYGEQAAACZ7MzREOEQzOEUtRTYxOC00RTJDLTlCMEUtQTQ2MDAwNTIyRUExfQYSAAAADFNBSU5UU1w2MDgyOQYTAAAADU9saXZlciBDb29wZXILHwIy6g4AAQAAAP////8BAAAAAAAAAAQBAAAAkwJTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5EaWN0aW9uYXJ5YDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW01pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24sIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE0LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWNdXQQAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQ1LZXlWYWx1ZVBhaXJzAAMAAwiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCJcCU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW01pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24sIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE0LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWNdXVtdAQAAAAkCAAAAAwAAAAkDAAAABAIAAACSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAAAAAAcDAAAAAAEAAAABAAAAA5UCU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW01pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24sIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE0LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWNdXQwFAAAAWE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE0LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWME/P///5UCU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW01pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24sIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE0LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWNdXQIAAAADa2V5BXZhbHVlAQQxTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLkZpbHRlck9wZXJhdGlvbgUAAAAGBgAAAANASUQJBwAAAAUHAAAAMU1pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24GAAAADW1fRmlsdGVyVmFsdWUMbV9GaWx0ZXJEYXRhEW1fSXNGaWVsZExvb2t1cElkEm1fSXNGcm9tQ29ubmVjdGlvbg9tX09wZXJhdGlvblR5cGUUbV9iSXNGcm9tUXVlcnlTdHJpbmcBAQAAAQABAQEFAAAABggAAAAENjg3OQoAAQoBCx8DMtoKAAEAAAD/////AQAAAAAAAAAEAQAAAOIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQQAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQ1LZXlWYWx1ZVBhaXJzAAMAAwiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCOYBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dW10BAAAACQIAAAADAAAACQMAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0AAAAABwMAAAAAAQAAAAEAAAAD5AFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0E/P///+QBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAgAAAANrZXkFdmFsdWUBAQYFAAAAAklEBgYAAAAENjg3OQtkZAUmZ185NGMyZDU5ZV9jY2MwXzRlYmJfODYwYl82YjYxMmZmMTM5N2YPDxYGHwEyzAUAAQAAAP////8BAAAAAAAAAAwCAAAAWE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE0LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWMFAQAAAD1NaWNyb3NvZnQuU2hhcmVQb2ludC5XZWJQYXJ0UGFnZXMuUGFyYW1ldGVyTmFtZVZhbHVlSGFzaHRhYmxlAQAAAAVfY29sbAMcU3lzdGVtLkNvbGxlY3Rpb25zLkhhc2h0YWJsZQIAAAAJAwAAAAQDAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5IYXNodGFibGUHAAAACkxvYWRGYWN0b3IHVmVyc2lvbghDb21wYXJlchBIYXNoQ29kZVByb3ZpZGVyCEhhc2hTaXplBEtleXMGVmFsdWVzAAADAwAFBQsIHFN5c3RlbS5Db2xsZWN0aW9ucy5JQ29tcGFyZXIkU3lzdGVtLkNvbGxlY3Rpb25zLklIYXNoQ29kZVByb3ZpZGVyCOxROD8gAAAACgoXAAAACQQAAAAJBQAAABAEAAAACAAAAAYGAAAADU1hbnVhbFJlZnJlc2gGBwAAAAZVc2VySUQGCAAAAApMaXN0SXRlbUlkBgkAAAARZHZ0X3N0YXJ0cG9zaXRpb24GCgAAAApGaWx0ZXJMaW5rBgsAAAAGTGlzdElEBgwAAAAFVG9kYXkGDQAAAA1Db29yZEN1cnJVc2VyEAUAAAAIAAAABg4AAAAFRmFsc2UGDwAAAA1PbGl2ZXIgQ29vcGVyBhAAAAABMAYRAAAAAAYSAAAAAT8GEwAAACZ7QTRGMTRGOTktNDk3My00MkFCLTk4M0YtRTRFMTRGMjAxNDQ3fQYUAAAAFDIwMTUtMDUtMTdUMTQ6MDE6MjRaBhUAAAAMc2FpbnRzXDYwODI5Cx8CMo0FAAEAAAD/////AQAAAAAAAAAEAQAAAJMCU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtNaWNyb3NvZnQuU2hhcmVQb2ludC5XZWJQYXJ0UGFnZXMuRmlsdGVyT3BlcmF0aW9uLCBNaWNyb3NvZnQuU2hhcmVQb2ludCwgVmVyc2lvbj0xNC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03MWU5YmNlMTExZTk0MjljXV0DAAAAB1ZlcnNpb24IQ29tcGFyZXIISGFzaFNpemUAAwAIkgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQgAAAAACQIAAAAAAAAABAIAAACSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAAAAAAsfAzLcBAABAAAA/////wEAAAAAAAAABAEAAADiAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAAB1ZlcnNpb24IQ29tcGFyZXIISGFzaFNpemUAAwAIkgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQgAAAAACQIAAAAAAAAABAIAAACSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAAAAAAtkZAIGD2QWBGYPZBYEAgEPFgIeB1Zpc2libGVoFgJmD2QWBAICD2QWBgIBDxYCHwRoZAIDDxYIHhNDbGllbnRPbkNsaWNrU2NyaXB0BYIBamF2YVNjcmlwdDpDb3JlSW52b2tlKCdUYWtlT2ZmbGluZVRvQ2xpZW50UmVhbCcsMSwgMSwgJ2h0dHBzOlx1MDAyZlx1MDAyZmtleXN0b25lLnN0cGV0ZXJzLnNhLmVkdS5hdVx1MDAyZnNwb3J0cycsIC0xLCAtMSwgJycsICcnKR4YQ2xpZW50T25DbGlja05hdmlnYXRlVXJsZB4oQ2xpZW50T25DbGlja1NjcmlwdENvbnRhaW5pbmdQcmVmaXhlZFVybGQeDEhpZGRlblNjcmlwdAUhVGFrZU9mZmxpbmVEaXNhYmxlZCgxLCAxLCAtMSwgLTEpZAIFDxYCHwRoZAIDDw8WCh4JQWNjZXNzS2V5BQEvHg9BcnJvd0ltYWdlV2lkdGgCBR4QQXJyb3dJbWFnZUhlaWdodAIDHhFBcnJvd0ltYWdlT2Zmc2V0WGYeEUFycm93SW1hZ2VPZmZzZXRZAusDZGQCAw9kFgICAQ9kFgICAw9kFgICAQ88KwAFAQAPFgIeD1NpdGVNYXBQcm92aWRlcgURU1BTaXRlTWFwUHJvdmlkZXJkZAIBD2QWBgIFD2QWAgIBDxAWAh8EaGQUKwEAZAIHD2QWAmYPZBYCZg8UKwADZAUraHR0cDovL215LnN0cGV0ZXJzLnNhLmVkdS5hdTo4MC9QZXJzb24uYXNweAUgaHR0cDovL215LnN0cGV0ZXJzLnNhLmVkdS5hdTo4MC9kAgkPDxYCHwRoZGQCFg9kFgICCw8WAh8ACysEAWRk/HwLYkmOcAFH1nynTbPUMOsPQqQ=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=E_wZn6rZ41AJ4wrhfQgTh5gFgQriiDaC48vSL7285ZY1M6kgiBpDnFHyaJoHFTKwaShKh3k_4GszJRlfSMPATYO4DqM1&amp;t=635295473132453548" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+var g_wsaLCID = 1033;
+var g_wsaSiteTemplateId = 'STS#1';
+var g_wsaListTemplateId = 850;
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fsports", webLanguage: 1033, currentLanguage: 1033, webUIVersion:4,pageListId:"{78194f14-4338-4950-ac3f-2703d17213af}",pageItemId:1,userId:710, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};function CallServer_31339776(arg, context) {WebForm_DoCallback('ctl00$head$ctl07',arg,SP.UI.MyLinksRibbon.MyLinksRibbonPageComponent.ribbonActionCallback,context,null,false); }function _myLinksRibbonLoad2()
+{
+    var fnd = function () {
+        try {
+            mylinks_init.MyLinksInit('CallServer_31339776'); 
+        } 
+        catch (Ex)
+        { }
+    };
+    RegisterSod('mylinks_init', '/_layouts/SP.UI.MyLinksRibbon.js');
+    LoadSodByKey('mylinks_init', fnd);
+}
+
+function _myLinksRibbonLoad1()
+{
+    ExecuteOrDelayUntilScriptLoaded(_myLinksRibbonLoad2, 'SP.Ribbon.js');
+}
+
+_spBodyOnLoadFunctionNames.push('_myLinksRibbonLoad1');
+
+function SetApplyFiltersToActiveIfPresent()
+{
+    if (typeof(SetApplyFiltersActive) == 'function')
+    {
+
+        SetApplyFiltersActive();
+    }
+
+}
+
+                            function DoCallBack(filterText)
+                            {WebForm_DoCallback('ctl00$m$g_44f614c8_f6c2_45b5_9425_8858a5409e89',filterText,UpdateFilterCallback,0,CallBackError,true)
+                            }
+                            function CallBackError(result, clientsideString)
+                            {                
+                            }
+                        //]]>
+</script>
+<script type="text/javascript">
+<!--
+var L_Menu_BaseUrl="/sports";
+var L_Menu_LCID="1033";
+var L_Menu_SiteTheme="";
+//-->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};var _spWebPartComponents = new Object();//]]>
+</script>
+<script type="text/javascript" >
+<!--
+//-->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+function MessagePanel_ToggleHelpText(baseId, index)
+{
+    var span = document.getElementById(baseId+'_longSpan'+index);
+    var img  = document.getElementById(baseId+'_expandImg'+index);
+    
+    if(span.style.display == '')
+    {
+        span.style.display = 'none';
+        img.src = '/_layouts/images/plus.gif';
+        img.alt = 'Expand';
+    }
+    else
+    {
+        span.style.display = '';
+        img.src = '/_layouts/images/minus.gif';
+        img.alt = 'Collapse';
+    }
+}var __SafeRunFunctionLoadedScripts = new Array();function SafeRunFunction(fnc, script, type){    if (!_spBodyOnLoadCalled)    {        __QueueFunctionForSafeRunFunction(fnc, script, type);        return;    }    var executed = ExecuteOrDelayUntilScriptLoaded(fnc, script);    if (executed)    {        return;    }    var loaded = false;    for (var i = 0; i < __SafeRunFunctionLoadedScripts.length; i++)    {        if (__SafeRunFunctionLoadedScripts[i].toLowerCase() != script.toLowerCase())        {            continue;        }        loaded = true;        break;    }    if (loaded)    {        return;    }    __SafeRunFunctionLoadedScripts.push(script);    var defd;    try    {        eval('defd = typeof(' + type + ');');    }    catch (e)    {        defd = 'undefined';    }    EnsureScript(script, defd, function(){});}var __SafeRunFunctionQueue = null;function __QueueFunctionForSafeRunFunction(fnc, script, type){    if (!__SafeRunFunctionQueue)    {        __SafeRunFunctionQueue = new Array();    }    var container = new Object();    container['Function'] = fnc;    container['Script']   = script;    container['Type']     = type;    __SafeRunFunctionQueue.push(container);}function __ProcessQueuedFunctions(){    if (!__SafeRunFunctionQueue ||          __SafeRunFunctionQueue.length <= 0)    {        return;    }    for (var i = 0; i < __SafeRunFunctionQueue.length; i++)    {        var container = __SafeRunFunctionQueue[i];        var fnc    = container['Function'];        var script = container['Script'];        var type   = container['Type'];        SafeRunFunction(fnc, script, type);    }    __SafeRunFunctionQueue = null;}_spBodyOnLoadFunctionNames.push('__ProcessQueuedFunctions');//]]>
+</script>
+
+<script src="/_layouts/blank.js?rev=QGOYAJlouiWgFRlhHVlMKA%3D%3D" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+        function createXmlHttpRequest() {
+            try {return new XMLHttpRequest(); } catch(e) {}
+            try {return new ActiveXObject('Msxml2.XMLHTTP'); } catch(e) {}
+            try {return new ActiveXObject('Microsoft.XMLHTTP'); } catch(e) {}
+        }
+        
+        function GetResourcesForLanguage(culture)
+        {
+            if (typeof(NW) == 'undefined' || typeof(NW.WebResource) == 'undefined') {
+                
+                var xmlHttpReq = createXmlHttpRequest();
+                var requestString = '';
+                requestString = '\u002f_layouts\u002fScriptResx.ashx?culture=' + culture + '\u0026name=NWWebResource';
+
+                xmlHttpReq.open('GET', requestString, false);
+                xmlHttpReq.send(null);
+                if (xmlHttpReq.status == 200)
+                {
+                    eval(xmlHttpReq.responseText);
+                    return true;
+                }
+                
+                return false;
+            }
+        }
+        
+        function InsertNWButtons() {
+              var culture = SP.Utilities.HttpUtility.htmlEncode(document.documentElement.lang);
+              if(!GetResourcesForLanguage(culture))
+              {
+                GetResourcesForLanguage('en-US')
+              }
+                
+            try {
+                this.g_CUIcommandProperties.PopulationXML = this.g_CUIcommandProperties.PopulationXML.replace(
+                    '</Menu>', 
+                    '<MenuSection DisplayMode=\'Menu\' Id=\'Ribbon.List.Settings.ManageWorkflows.Menu.CreateInNW\'><Controls Id=\'Ribbon.List.Settings.ManageWorkflows.Menu.CreateInNW.Controls\'><Button Id=\'Ribbon.List.Settings.ManageWorkflows.Menu.CreateInNW.Controls.CreateWorkflowInDesigner\' Command=\'CreateNintexWorkflow\' LabelText=\'' +
+                        NW.WebResource.createWorkflowButton +
+                        '\'/><Button Id=\'Ribbon.List.Settings.ManageWorkflows.Menu.CreateInNW.Controls.ManageNintexWorkflows\' Command=\'ManageNintexWorkflows\' LabelText=\'' +
+                        NW.WebResource.manageWorkflowsButton +
+                        '\'/></Controls></MenuSection></Menu>'
+                );
+            }
+            catch(e) {}        
+        }
+        
+                
+                if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();function WebForm_OnSubmit() {
+UpdateFormDigest('\u002fsports', 1440000);
+                    var workspaceElem = GetCachedElement("s4-workspace");
+                    if (workspaceElem != null)
+                    {
+                        var scrollElem = GetCachedElement("_maintainWorkspaceScrollPosition");
+                        if (scrollElem != null)
+                        {
+                            scrollElem.value = workspaceElem.scrollTop;
+                        }
+                    };
+                if (typeof(vwpcm) != 'undefined') {vwpcm.SetWpcmVal();};if (typeof(_spFormOnSubmitWrapper) != 'undefined') {return _spFormOnSubmitWrapper();} else {return true;};
+return true;
+}
+//]]>
+</script>
+
+    	<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAdderUpdatePanel','tctl00$panelZone'], [], ['ctl00$WebPartAdder'], 90);
+//]]>
+</script>
+
+	    
+        <div id="toplinksright"><a title="Check My Messages" onclick="SlideNotPan();"><span class="unreadFloat"></span><img class="messageicon" src="/_layouts/StPeters.Keystone/HomePage/images/Messages.png" width="32px" height="32px" /></a><a title="Log out of Keystone" onclick="keyLogOut();"><img src="/_layouts/StPeters.Keystone/HomePage/images/logout.png" width="32px" height="32px" /></a></div>
+        <div id="s4-ribbonrow" class="s4-pr s4-ribbonrowhidetitle" style="display:none">
+	        <div id="s4-ribboncont">
+		        <div class='ms-cui-ribbonTopBars'><div class='ms-cui-topBar1'></div><div class='ms-cui-topBar2'><div id='RibbonContainer-TabRowLeft' class='ms-cui-TabRowLeft ms-siteactionscontainer s4-notdlg'>
+					           <span class="ms-siteactionsmenu" id="siteactiontd">
+					           </span>
+				        
+						        <span class="s4-breadcrumb-anchor"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust"><a id="GlobalBreadCrumbNavPopout-anchor" onclick="CoreInvoke('callOpenBreadcrumbMenu', event, 'GlobalBreadCrumbNavPopout-anchor', 'GlobalBreadCrumbNavPopout-menu', 'GlobalBreadCrumbNavPopout-img', 's4-breadcrumb-anchor-open', 'ltr', '', false); return false;" onmouseover="" onmouseout="" title="Navigate Up" href="javascript:;" style="display:inline-block;height:16px;width:16px;"><img src="/_layouts/images/fgimg.png" alt="Navigate Up" style="border:0;position:absolute;left:-0px !important;top:-112px !important;" /></a></span></span><div class="ms-popoutMenu s4-breadcrumb-menu" id="GlobalBreadCrumbNavPopout-menu" style="display:none;">
+							        <div class="s4-breadcrumb-top">
+								        <span class="s4-breadcrumb-header">This page location is:</span>
+							        </div>
+							        
+								        <ul class="s4-breadcrumb">
+	<li class="s4-breadcrumbRootNode"><span class="s4-breadcrumb-arrowcont"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust s4-breadcrumb"><img src="/_layouts/images/fgimg.png" alt="" style="border-width:0px;position:absolute;left:-0px !important;top:-353px !important;" /></span></span><a class="s4-breadcrumbRootNode" href="/">Keystone</a><ul class="s4-breadcrumbRootNode"><li class="s4-breadcrumbNode"><span class="s4-breadcrumb-arrowcont"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust s4-breadcrumb"><img src="/_layouts/images/fgimg.png" alt="" style="border-width:0px;position:absolute;left:-0px !important;top:-353px !important;" /></span></span><a class="s4-breadcrumbNode" href="/sports">Sport Zone</a><ul class="s4-breadcrumbNode"><li class="s4-breadcrumbNode"><span class="s4-breadcrumb-arrowcont"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust s4-breadcrumb"><img src="/_layouts/images/fgimg.png" alt="" style="border-width:0px;position:absolute;left:-0px !important;top:-353px !important;" /></span></span><a class="s4-breadcrumbNode" href="https://keystone.stpeters.sa.edu.au/sports/_layouts/listform.aspx?ListId=%7B78194F14%2D4338%2D4950%2DAC3F%2D2703D17213AF%7D&amp;PageType=0">Pages</a><ul class="s4-breadcrumbNode"><li class="s4-breadcrumbCurrentNode"><span class="s4-breadcrumb-arrowcont"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust s4-breadcrumb"><img src="/_layouts/images/fgimg.png" alt="" style="border-width:0px;position:absolute;left:-0px !important;top:-353px !important;" /></span></span><span class="s4-breadcrumbCurrentNode">SportZone</span></li></ul></li></ul></li></ul></li>
+</ul>
+								        
+						        </div>
+						        <div class="s4-die">
+							        
+						        </div>
+				        
+				        
+			        </div><div id='RibbonContainer-TabRowRight' class='ms-cui-TabRowRight s4-trc-container s4-notdlg'>
+	        
+
+	         <a href="#" tabindex="-1" style="display:none"></a><a href="#" tabindex="-1" style="display:none"></a>
+	         <div class="s4-trc-container-menu">
+		         <div>
+			        
+	 
+	<span style="display:none"><menu type='ServerMenu' id="zz1_ID_PersonalActionMenu" largeiconmode="true"><ie:menuitem id="zz2_ID_PersonalInformation" type="option" iconSrc="/_layouts/images/menuprofile.gif" onMenuClick="javascript:GoToPage('\u002fsports\u002f_layouts\u002fuserdisp.aspx?Force=True\u0026ID=' + _spUserId);return false;" text="My Settings" description="Update your user information, regional settings, and alerts." menuGroupId="100"></ie:menuitem>
+<ie:menuitem id="zz3_ID_LoginAsDifferentUser" type="option" onMenuClick="javascript:LoginAsAnother('\u002fsports\u002f_layouts\u002fcloseConnection.aspx?loginasanotheruser=true', 0)" text="Sign in as Different User" description="Login with a different account." menuGroupId="200"></ie:menuitem>
+<ie:menuitem id="zz4_ID_RequestAccess" type="option" text="Request Access" description="Email the site administrator to request additional permissions." menuGroupId="200"></ie:menuitem>
+<ie:menuitem id="zz5_ID_Logout" type="option" onMenuClick="STSNavigate2(event,'/sports/_layouts/SignOut.aspx');" text="Sign Out" description="Logout of this site." menuGroupId="200"></ie:menuitem>
+<ie:menuitem id="ctl00_IdWelcome_ExplicitLogout_ctl00_NintexWorkflow" type="submenu" text="Nintex Workflow 2010" description="Nintex Workflow 2010 settings" iconSrc="/_layouts/NintexWorkflow/images/menu/MyNW2010.png"><ie:menuitem id="ctl00_IdWelcome_ExplicitLogout_ctl00_NintexWorkflow_Label" type="label" menuGroupId="2147483647"></ie:menuitem><ie:menuitem id="ctl00_IdWelcome_ExplicitLogout_ctl00_Nintex.Workflow.Delegation" type="option" iconSrc="/_layouts/NintexWorkflow/images/DelegateNWTask_32.png" onMenuClick="STSNavigate2(event,'https://keystone.stpeters.sa.edu.au/sports/_layouts/NintexWorkflow/DelegationView.aspx');" text="Task Delegation" description="Setup automatic delegation of your tasks to other users" menuGroupId="2147483647"></ie:menuitem>
+</ie:menuitem></menu></span><span  id="zz6_Menu_t" class="ms-SPLink ms-SpLinkButtonInActive ms-welcomeMenu" title="Open Menu" onmouseover="MMU_PopMenuIfShowing(this);MMU_EcbTableMouseOverOut(this, true)" hoveractive="ms-SPLink ms-SpLinkButtonActive ms-welcomeMenu" hoverinactive="ms-SPLink ms-SpLinkButtonInActive ms-welcomeMenu" onclick=" CoreInvoke('MMU_Open',byid('zz1_ID_PersonalActionMenu'), MMU_GetMenuFromClientId('zz6_Menu'),event,false, null, 0); return false;" foa="MMU_GetMenuFromClientId('zz6_Menu')" oncontextmenu="ClkElmt(this); return false;" style="white-space:nowrap"><a class="ms-menu-a" id="zz6_Menu" accesskey="W" href="javascript:;" style="cursor:pointer;white-space:nowrap;" onfocus="MMU_EcbLinkOnFocusBlur(byid('zz1_ID_PersonalActionMenu'), this, true);" onkeydown="MMU_EcbLinkOnKeyDown(byid('zz1_ID_PersonalActionMenu'), MMU_GetMenuFromClientId('zz6_Menu'), event);" onclick=" CoreInvoke('MMU_Open',byid('zz1_ID_PersonalActionMenu'), MMU_GetMenuFromClientId('zz6_Menu'),event,false, null, 0); return false;" oncontextmenu="ClkElmt(this); return false;" menutokenvalues="MENUCLIENTID=zz6_Menu,TEMPLATECLIENTID=zz1_ID_PersonalActionMenu" serverclientid="zz6_Menu"><span>Oliver Cooper</span><img src="/_layouts/images/blank.gif" style='border:0px' alt="Use SHIFT+ENTER to open the menu (new window)."/></a><span style="height:3px;width:5px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust ms-viewselector-arrow"><img src="/_layouts/images/fgimg.png" alt="Open Menu" style="border-width:0px;position:absolute;left:-0px !important;top:-491px !important;" /></span></span><script type="text/javascript">
+//<![CDATA[
+var _spUserId=710;
+//]]>
+</script>
+
+
+			        
+<script type ="text/javascript">
+// <![CDATA[
+function OnSelectionChange(value)
+{
+	var today = new Date();
+	var oneYear = new Date(today.getTime() + 365 * 24 * 60 * 60 * 1000);
+	var url = window.location.href;
+	document.cookie = "lcid=" + value + ";path=/;expires=" + oneYear.toGMTString();
+	window.location.href = url;
+}
+// ]]>
+</script>
+
+
+		        </div>
+	        </div>
+	        
+
+	        <span>
+		        <span class="s4-devdashboard">
+			        
+		        </span>
+	        </span>
+			        </div></div></div>
+<script type="text/javascript">
+//<![CDATA[
+var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
+//]]>
+</script>
+	        </div>
+	        <div id="notificationArea" class="s4-noti">
+	        </div>
+	        
+			        
+<span id="ctl00_SPNavigation_ctl00_publishingConsoleV4_publishingRibbon"></span>
+
+
+
+	        
+	        <div id="WebPartAdderUpdatePanelContainer">
+		        <div id="ctl00_WebPartAdderUpdatePanel">
+	
+				        <span id="ctl00_WebPartAdder"></span>
+			        
+</div>
+	        </div>
+        </div>
+
+        
+        
+
+        <div id="container-wrapper">
+
+            <div id="body-wrapper">
+
+                
+                <div id="s4-titlerow" class="s4-pr s4-notdlg s4-titlerowhidetitle">
+                    <div id="audience-header" class="body-padding">
+                        
+                            <a class="ApplicationHeaderLogo" href="/pages/Home.aspx"><img src="/_layouts/images/kbng/system/spacer.gif" alt="Keystone - Building Knowledge" style="border-width:0px;" /></a>
+                        
+
+                        
+		
+	<p></p>
+	<style type="text/css">
+	@media print{
+	.printbutton{
+	display:none;}
+	.ms-cui-topBar1{
+	display:none;
+	}
+	.ms-cui-topBar2{
+	display:none;
+	}
+	}
+	#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#loading {
+    width: 220px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -110px; 
+}
+td.ms-vb.SZ{
+	font-family: 'Open Sans', sans-serif;
+	color:#444;
+}
+	</style>
+
+                    </div>
+                    
+                    <div class="clearBoth">
+                    </div>
+
+                    
+                </div>
+
+                
+	
+
+
+                
+
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td id="MSOZoneCell_WebPartWPQ1" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%" style="display:none;">
+			<tr>
+				<td valign="top"><div WebPartID="651dc1a0-057c-4472-9309-aa4d0895f7e5" HasPers="false" id="WebPartWPQ1" width="100%" class="ms-WPBody noindex" allowDelete="false" style="" ><div id="ctl00_m_g_6fbb6158_d29f_4e43_9a5f_b25213c56ee7">
+					<span></span><div style="padding:5px 3px 0px;">
+
+					</div><span id="ctl00_m_g_6fbb6158_d29f_4e43_9a5f_b25213c56ee7_msg"></span>
+				</div></div></td>
+			</tr>
+		</table><div class="ms-PartSpacingVertical"></div></td>
+	</tr><tr>
+		<td id="MSOZoneCell_WebPartWPQ2" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%" style="display:none;">
+			<tr>
+				<td valign="top"><div WebPartID="27a89409-6590-49d0-9e3f-a019e23c4cf0" HasPers="false" id="WebPartWPQ2" width="100%" class="ms-WPBody noindex" allowDelete="false" style="" ><div id="ctl00_m_g_0696ae4b_8685_4d30_8313_7e403e245a9b">
+					<span></span><div style="padding:5px 3px 0px;">
+
+					</div><span id="ctl00_m_g_0696ae4b_8685_4d30_8313_7e403e245a9b_msg"></span>
+				</div></div></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+
+    <div id="full-page-wrapper-top">
+    </div>
+
+    <div id="full-page-wrapper-middle">
+        <menu class="ms-SrvMenuUI">
+	<ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none">
+
+	</ie:menuitem>
+</menu>
+
+        <table border="0" cellpadding="4" cellspacing="0" class="WebPartZoneHolder" height="100%" width="100%">
+            <tr>
+                <td valign="top">
+                    
+                </td>
+                <td valign="top">
+                    
+                </td>
+                <td valign="top">
+                    
+                </td>
+            </tr>
+        </table>
+        
+        <div class="welcome-content">
+            <div id="ctl00_PlaceHolderMain_ctl00_label" style='display:none'>Page Content</div><div id="ctl00_PlaceHolderMain_ctl00__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl00_label"><h1 class="ms-rteElement-H1">The Sport Zone</h1>
+​​​</div>
+        </div>
+        
+        <p>Welcome to Sports Zone.
+			If you do not see any upcoming matches, it is likely you have not been allocated to a fixture yet. If you believe this is an error, please contact your team coach/coordinator or contact PA to the Director of Sport & Athletic Development Mrs Sue Dickinson ( SDickinson@stpeters.sa.edu.au 08 8404 0439). You may browse other matches and results from across the School by using the navigation buttons below.
+		</p>
+
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td id="MSOZoneCell_WebPartWPQ10" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="23b3d68f-5fa7-4fa8-839e-5c5432e60e86" HasPers="false" id="WebPartWPQ10" width="100%" class="ms-WPBody noindex" allowDelete="false" style="" ><div id="ctl00_m_g_23b3d68f_5fa7_4fa8_839e_5c5432e60e86">
+					
+			<div>
+			</div>
+			
+				</div></div></td>
+			</tr>
+		</table><div class="ms-PartSpacingVertical"></div></td>
+	</tr><tr>
+		<td id="MSOZoneCell_WebPartWPQ3" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="126ce8b9-d7b9-4c45-8b84-563443fbe60e" HasPers="false" id="WebPartWPQ3" width="100%" class="noindex" allowDelete="false" style="" ><table border="0" width="100%" xmlns:x="http://www.w3.org/2001/XMLSchema" xmlns:d="http://schemas.microsoft.com/sharepoint/dsp" xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:__designer="http://schemas.microsoft.com/WebParts/v2/DataView/designer" xmlns:SharePoint="Microsoft.SharePoint.WebControls" xmlns:ddwrt2="urn:frontpage:internal"><tr><td><table border="0" cellspacing="0" width="100%" style="background:#efefef;padding:5px;font-family:'Open Sans', sans-serif;border:1px solid #ccc;" class="SZ-header"><tr><td width="100%" class="ms-vb SZ" style="font-size:18px; height: 54px;"><a target="_self" href="javascript:__doPostBack('ctl00$m$g_44f614c8_f6c2_45b5_9425_8858a5409e89','__connect={g_200cc205_6271_4ff7_81b6_115add637e82*@ID=6879};')"></a><b>Intermediate B Team IV</b><br>Week 4, Term 2, 12/05/2015 7:30 PM</td><td style="text-align:right;vertical-align:top;"><a class="printbutton" onclick="javascript:window.print();" style="cursor:pointer;"><img alt="Print/Save" rel="../PublishingImages/icons/Print-Save-Hover.png" class="rollover" src="../PublishingImages/icons/Print-Save.png"></a></td></tr><tr><td width="100%" class="ms-vb SZ" style="font-size:12px;" colspan="99">Against <a target="_self" href="javascript:__doPostBack('ctl00$m$g_44f614c8_f6c2_45b5_9425_8858a5409e89','__connect={g_7187ad3a_9734_4ece_a9a1_0e4b74e9975a*@ID=6879};')"></a>St Dominic's Priory, playing Away</td></tr></table></td></tr></table><table cellspacing="0" cellpadding="4" border="0" width="100%" xmlns:x="http://www.w3.org/2001/XMLSchema" xmlns:d="http://schemas.microsoft.com/sharepoint/dsp" xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:__designer="http://schemas.microsoft.com/WebParts/v2/DataView/designer" xmlns:SharePoint="Microsoft.SharePoint.WebControls" xmlns:ddwrt2="urn:frontpage:internal"><tr style="text-align:left;" class="printbutton"><td nowrap style="font-size:12px;" align="left"><br><a style="border:none;" href="javascript: __doPostBack('ctl00$m$g_44f614c8_f6c2_45b5_9425_8858a5409e89','dvt_firstrow={2};dvt_startposition={Paged=TRUE&amp;p_Date_x0020_and_x0020_Time=20150512%2010%3a00%3a00&amp;p_ID=6879}');"><img alt="View Earlier Match" rel="../PublishingImages/icons/Earlier-Match-Hover.png" class="rollover" src="../PublishingImages/icons/Earlier-Match.png" style="border:none;"></a></td></tr></table></div></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+
+        <table border="0" cellpadding="4" cellspacing="0" class="WebPartZoneHolder" height="100%" width="100%">
+            <tr>
+                <td valign="top">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td id="MSOZoneCell_WebPartWPQ4" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:550px">
+			<tr>
+				<td valign="top"><div WebPartID="a86b07bf-14c0-4025-8ba3-49ee14023948" HasPers="false" id="WebPartWPQ4" class="noindex" allowDelete="false" style="width:550px;overflow:auto;" ><table border="0" width="100%" cellpadding="2" cellspacing="0" style="overflow:visible;" xmlns:x="http://www.w3.org/2001/XMLSchema" xmlns:d="http://schemas.microsoft.com/sharepoint/dsp" xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:__designer="http://schemas.microsoft.com/WebParts/v2/DataView/designer" xmlns:SharePoint="Microsoft.SharePoint.WebControls" xmlns:ddwrt2="urn:frontpage:internal"><tr valign="top"><th class="ms-vh" nowrap style="font-size:12px;font-weight:bold;">Pre-Game Comments</th></tr><tr class="ms-alternating"><td class="ms-vb" style="font-size:12px;"></td></tr><tr><td><br></td></tr><tr><th class="ms-vh" nowrap style="font-size:12px;font-weight:bold;">Team List</th></tr><tr class="ms-alternating"><td class="ms-vb" style="font-size:12px;">William Sexton; Harrison Georgiadis; Max Shinkfield; Oliver Cooper</td></tr><tr><td><br></td></tr><tr><th class="ms-vh" nowrap style="font-size:12px;font-weight:bold;">Venue Map - 
+		St Dominics Priory (Room 5)</th></tr><tr><td><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdwpOb-cjr65ArWq-L-iALJSmRPcG_t7A&amp;sensor=false"></script><script type="text/javascript">
+		  var directionsDisplay;
+		var directionsService = new google.maps.DirectionsService();
+		var rendererOptions = {
+			draggable: true
+			};
+		  $(document).ready(function(){
+		  	directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
+		    var latlng = new google.maps.LatLng(-34.90903,138.58565);
+		    var myOptions = {
+		      zoom: 15,
+		      center: latlng,
+		      mapTypeId: google.maps.MapTypeId.HYBRID};
+		    var map = new google.maps.Map(document.getElementById("map-zone"),
+		        myOptions);
+		    marker = new google.maps.Marker({
+    		map:map,
+    		draggable:false,
+    		animation: google.maps.Animation.DROP,
+    		position: latlng
+  			});
+  			google.maps.event.addListener(marker, 'click', toggleBounce);
+  			directionsDisplay.setMap(map);
+  			directionsDisplay.setPanel(document.getElementById("drivingdir2"));
+		  });
+		  function toggleBounce() {
+  			if (marker.getAnimation() != null) {
+    		marker.setAnimation(null);
+  			} else {
+    		marker.setAnimation(google.maps.Animation.BOUNCE);
+  			}
+			}
+			function calcRoute() {
+  var start = document.getElementById("start").value;
+  var end = new google.maps.LatLng(-34.90903,138.58565);
+  var request = {
+    origin:start,
+    destination:end,
+    provideRouteAlternatives: true,
+    region:'au',
+    travelMode: google.maps.TravelMode.DRIVING
+  };
+  directionsService.route(request, function(result, status) {
+    if (status == google.maps.DirectionsStatus.OK) {
+      directionsDisplay.setDirections(result);
+      $('#drivingdir').show();
+    }
+  });
+}
+	function clearRoute(){
+	directionsDisplay.setDirections({routes: new Array()});
+	$('#drivingdir').hide();
+	$('#start').val("");
+	}
+		</script><div id="map-zone" style="width:540px;height:300px;"></div><br></td></tr><tr style="page-break-inside:auto;page-break-after:auto;"><td><div class="printbutton"><br>Get Directions From: <input type="text" id="start" size="37"> <input type="button" value="Show Me" onclick="calcRoute()"> <input type="button" value="Clear Map" onclick="clearRoute()"></div><div id="drivingdir" style="display:none;page-break-inside:auto;"><br><span class="ms-vh" style="font-size:12px;font-weight:bold;">Driving Directions:</span><br><div id="drivingdir2"></div><br><i>Please Note: These directions are generated automatically and have not been checked for accuracy. Please use them as a guide only.</i></div></td></tr></table></div></td>
+			</tr>
+		</table><div class="ms-PartSpacingVertical"></div></td>
+	</tr><tr>
+		<td id="MSOZoneCell_WebPartWPQ7" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="c02d1e78-e629-4d3f-9573-6ae5b7f57033" HasPers="false" id="WebPartWPQ7" width="100%" class="ms-WPBody noindex" allowDelete="false" style="" ><div id="ctl00_m_g_c02d1e78_e629_4d3f_9573_6ae5b7f57033" class="printbutton">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div class="ms-vh" style="font-size:12px;font-weight:bold;">
+							Fixtures and Results</div>
+	<script type="text/javascript">
+		var currweek;
+		var currterm;
+		var curryear;
+		
+		$(document).ready(function(){
+			$().SPServices({
+				operation: "GetListItems",
+				async: false,
+				listName: "Week Dates",
+				CAMLViewFields: "<ViewFields><FieldRef Name='Title' /><FieldRef Name='Term' /><FieldRef Name='Start Date' /></ViewFields>",
+				completefunc: function (xData, status) {
+					 $(xData.responseXML).SPFilterNode("z:row").each(function () {
+						 var w = $(this).attr("ows_Title");
+						 var t = $(this).attr("ows_Term").split(';#')[1];
+						 var d = $(this).attr("ows_Start_x0020_Date")
+						 var parts = d.split(' ')[0].split('-');
+						 var startDate = new Date(parts[0], (parts[1] - 1), parts[2]);
+						 var today = new Date();
+						 if (today >= startDate && today <= startDate.setDate(startDate.getDate()+7)) {
+							currweek = w;
+							currterm = t;
+							curryear = '' + startDate.getFullYear();
+						 }
+					 });
+				}
+			});
+		});
+												
+        //Handle the DialogCallback callback 
+        function DialogCallback(dialogResult, returnValue){               
+		} 
+  
+          //Open the Dialog 
+          function OpenHomeMatches(){ 
+           var options = { 
+url:"../SitePages/HomeFixtures.aspx?IsDlg=1&w="+currweek+"&t="+currterm+"&y="+curryear, 
+             width: 875, 
+             height: 650, 
+             title: 'Home Fixtures',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          
+          //Open the Dialog 
+          function OpenAllMatches(){ 
+           var options = { 
+url:"../SitePages/AllFixtures.aspx?IsDlg=1&w="+currweek+"&t="+currterm+"&y="+curryear, 
+             width: 980, 
+             height: 650, 
+             title: 'All Fixtures',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          
+          //Open the Dialog 
+          function OpenMatchResults(){ 
+           if(currweek!="" && typeof currweek != 'undefined'){
+           weekno = currweek.split(' ');
+           weekno = weekno[1];
+           if(weekno>1){
+           weekno = weekno-1;
+           }
+           currweekres = "Week " + weekno;
+           }else{
+           currweekres = "Week 1";
+           }
+           var options = { 
+url:"../SitePages/MatchResults.aspx?IsDlg=1&w="+currweekres+"&t="+currterm+"&y="+curryear, 
+             width: 875, 
+             height: 650, 
+             title: 'Match Results',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          //Open the Dialog 
+          function OpenTeamSelector(){ 
+           var options = { 
+url:"../SitePages/TeamSelector.aspx?IsDlg=1&t="+currterm+"&y="+curryear, 
+             width: 875, 
+             height: 650, 
+             title: 'Team Fixtures',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          function OpenTeamResultSelector(){ 
+           var options = { 
+url:"../SitePages/TeamResultSelector.aspx?IsDlg=1&t="+currterm+"&y="+curryear, 
+             width: 875, 
+             height: 650, 
+             title: 'Team Results',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          </script>
+<div><a onclick="javascript:OpenHomeMatches();" style="cursor:pointer;"><img alt="View Home Fixtures" rel="../PublishingImages/icons/Home-Game-Hover.png" class="rollover" src="../PublishingImages/icons/Home-Game.png" /></a><a onclick="javascript:OpenAllMatches();" style="cursor:pointer;"><img alt="View All Game Fixtures" rel="../PublishingImages/icons/All-Games-Hover.png" class="rollover" src="../PublishingImages/icons/All-Games.png" /></a><a onclick="javascript:OpenTeamSelector();" style="cursor:pointer;"><img alt="View All Team Fixtures" rel="../PublishingImages/icons/Team-Fixtures-Hover.png" class="rollover" src="../PublishingImages/icons/Team-Fixtures.png" /></a><a onclick="javascript:OpenTeamResultSelector();" style="cursor:pointer;"><img alt="View All Team Results" rel="../PublishingImages/icons/Team-Results-Hover.png" src="../PublishingImages/icons/Team-Results.png" class="rollover" /></a><a onclick="javascript:OpenMatchResults();" style="cursor:pointer;"><img alt="Match Results" rel="../PublishingImages/icons/Match-Results-Hover.png" class="rollover" src="../PublishingImages/icons/Match-Results.png" /></a></div>
+						
+				</div></div></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                </td>
+                <td valign="top">
+                    
+                </td>
+                <td valign="top">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td id="MSOZoneCell_WebPartWPQ5" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:350px">
+			<tr>
+				<td valign="top"><div WebPartID="26cff047-0dbe-490a-8285-e7eba4493c25" HasPers="false" id="WebPartWPQ5" class="noindex" allowDelete="false" style="width:350px;overflow:auto;" ><script type="text/javascript" xmlns:x="http://www.w3.org/2001/XMLSchema" xmlns:d="http://schemas.microsoft.com/sharepoint/dsp" xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:__designer="http://schemas.microsoft.com/WebParts/v2/DataView/designer" xmlns:SharePoint="Microsoft.SharePoint.WebControls" xmlns:ddwrt2="urn:frontpage:internal">var currTeam = "334";</script><table border="0" width="100%" cellpadding="2" cellspacing="0" style="overflow:visible;" xmlns:x="http://www.w3.org/2001/XMLSchema" xmlns:d="http://schemas.microsoft.com/sharepoint/dsp" xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:__designer="http://schemas.microsoft.com/WebParts/v2/DataView/designer" xmlns:SharePoint="Microsoft.SharePoint.WebControls" xmlns:ddwrt2="urn:frontpage:internal"><tr valign="top"><th class="ms-vh" nowrap style="font-size:12px;font-weight:bold;">Game Scoreboard</th></tr><tr><td class="ms-vb" style="font-size:12px;height:20px;"><b>Result:</b>&nbsp;Not Yet Played</td></tr><tr><td class="ms-vb" style="font-size:12px;"><table width="350px"><tr width="350px"><td width="160px" style="font-size:30px;font-weight:bold;"></td><td width="30px"></td><td width="160px" style="text-align:right;font-size:30px;font-weight:bold;"></td></tr><tr><td width="160px">St Peter's College</td><td width="30px" style="text-align:center;">vs</td><td width="160px" style="text-align:right;">St Dominic&#39;s Priory</td></tr></table></td></tr><tr><td><br></td></tr><tr><th class="ms-vh" nowrap style="font-size:12px;font-weight:bold;">Team Staff</th></tr><tr><td class="ms-vb" style="font-size:12px;">Simon Roberts-Thomson; Raelene Schar; Oliver Cooper; Srinivas Kamath; </td></tr><tr><td><br><br></td></tr><tr class="printbutton"><th class="ms-vh" nowrap style="font-size:12px;font-weight:bold;">Team Manager Functions</th></tr><tr class="printbutton"><td class="ms-vb" style="font-size:12px;"><script type="text/javascript">
+         //Handle the DialogCallback callback 
+              function DialogCallback(dialogResult, returnValue){ 
+				SP.UI.ModalDialog.RefreshPage(dialogResult);              
+			} 
+  		  //Open medical data dialog
+  		  function ViewTeamMedicalDetails(id){
+  		  		var options = { 
+url:"../_layouts/stpeters.keystone/sportszone/MedicalDetails.aspx?id=" + id + "&IsDlg=1", 
+             width: 900, 
+             height: 400, 
+             title: 'Team Medical Details',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+  		  }
+          //Open the Dialog 
+          function OpenEditDialog(id){ 
+           var options = { 
+url:"../Lists/Matches/EditTeam.aspx?ID=" + id + "&IsDlg=1", 
+             width: 700, 
+             height: 400, 
+             title: 'Edit Team List',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          
+          function OpenPreGameDialog(id){ 
+           var options = { 
+url:"../Lists/Matches/EditPreGame.aspx?ID=" + id + "&IsDlg=1", 
+             width: 700, 
+             height: 325, 
+             title: 'Edit Pre-Game Information',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          
+          function OpenPostGameDialog(id){ 
+           var options = { 
+url:"../Lists/Matches/EditPostGame.aspx?ID=" + id + "&IsDlg=1", 
+             width: 700, 
+             height: 550, 
+             title: 'Edit Post-Game Information',
+             dialogReturnValueCallback: DialogCallback 
+             }; 
+            SP.UI.ModalDialog.showModalDialog(options); 
+          }
+          function SendNotification(id){
+          var over = '<div id="overlay"><img id="loading" src="../PublishingImages/ajax-loader-1.gif"></div>';
+  			$(over).appendTo('body');
+          $().SPServices({
+          operation: "StartWorkflow",
+          item: "https://keystone.stpeters.sa.edu.au/sports/Lists/Matches/" + id + "_.000",
+          templateId: "{fd1dcf5f-a2af-41e5-bd80-a14585e91663}",
+          workflowParameters: "<root></root>",
+          completefunc: function(){
+          	$('#overlay').remove();
+          	window.alert('Email notification has been sent');
+          }
+          });
+          }
+          $(document).ready(function() {
+          teamMan = "1";
+          });
+</script><a onclick="javascript:OpenPreGameDialog(6879);" style="cursor:pointer;"><img alt="Edit Pre-Game Comments" rel="../PublishingImages/icons/Pre-Game-Hover.png" class="rollover" src="../PublishingImages/icons/Pre-Game.png"></a><a onclick="javascript:OpenEditDialog(6879);" style="cursor:pointer;"><img alt="Edit Team List" rel="../PublishingImages/icons/Team-List-Hover.png" class="rollover" src="../PublishingImages/icons/Team-List.png"></a><a onclick="javascript:OpenPostGameDialog(6879);" style="cursor:pointer;"><img alt="Edit Post-Game Comments" rel="../PublishingImages/icons/Post-Game-Hover.png" class="rollover" src="../PublishingImages/icons/Post-Game.png"></a><br><a onclick="javascript:SendNotification(6879);" style="cursor:pointer;"><img alt="Send Notification to Team" rel="../PublishingImages/icons/Send-Change-Hover.png" class="rollover" src="../PublishingImages/icons/Send-Change.png"></a><a onclick="javascript:ViewTeamMedicalDetails(6879);" style="cursor:pointer; "><img alt="View Team Medical Details" rel="../PublishingImages/icons/medical-data-hover.png" class="rollover" src="../PublishingImages/icons/medical-data.png"></a></td></tr></table></div></td>
+			</tr>
+		</table><div class="ms-PartSpacingVertical"></div></td>
+	</tr><tr>
+		<td id="MSOZoneCell_WebPartWPQ8" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="4d6e5b1e-37d0-4607-a716-4687f0253679" HasPers="false" id="WebPartWPQ8" width="100%" class="ms-WPBody noindex" allowDelete="false" style="" ><div class="hiddeninit printbutton" style="display:none;">
+	<div class="ms-vh hiddeninit" nowrap="nowrap" style="font-size:12px;font-weight:bold;display:none;">
+	My Active Teams</div><div>
+	<select name="WPQ8TeamSelect" id="teamsSelect" style="width:170px;">
+	</select>
+	<script type="text/javascript">
+	var myQuery = "<Query><OrderBy><FieldRef Name='Title' Ascending='True'/></OrderBy><Where><Or><Eq><FieldRef Name='Teacher_x0020_In_x0020_Charge'/><Value Type='Integer'><UserID Type='Integer'/></Value></Eq><Eq><FieldRef Name='Assistant'/><Value Type='Integer'><UserID Type='Integer'/></Value></Eq></Or></Where></Query>";
+	var rowcount = 0;
+	$(document).ready(function() {
+	if(typeof teamMan!='undefined'){
+  	$().SPServices({
+    operation: "GetListItems",
+    async: false,
+    listName: "Teams",
+    CAMLQuery: myQuery,
+    CAMLRowLimit: 100,
+    CAMLViewFields: "<ViewFields><FieldRef Name='Title'/><FieldRef Name='ID'/><FieldRef Name='Active'/></ViewFields>",
+    completefunc: function (xData, Status) {
+    var itemCountteam = $(xData.responseXML).SPFilterNode("rs:data").attr("ItemCount");
+      $(xData.responseXML).SPFilterNode("z:row").each(function() {
+      active = "0";
+      xmlID = $(this).attr("ows_ID");
+      teamActive = $(this).attr("ows_Active");
+      if(teamActive==1){
+      if(currTeam==xmlID){
+      var selected = "selected='yes'";
+      active = "1";
+      }else{
+      var selected = "";
+      if(itemCountteam > 1){
+      $().SPServices({
+      	operation: "GetListItems",
+      	async: false,
+      	listName: "Matches",
+      	CAMLQuery: "<Query><OrderBy><FieldRef Name='Date_x0020_and_x0020_Time' Ascending='False'/></OrderBy><Where><And><Eq><FieldRef Name='Team_x003a_ID'/><Value Type='Integer'>" + xmlID + "</Value></Eq><Leq><FieldRef Name='Show_x0020_Match_x0020_From'/><Value Type='DateTime'><Today/></Value></Leq></And></Where></Query>",
+      	CAMLRowLimit: 1,
+      	CAMLViewFields: "<ViewFields><FieldRef Name='Team_x003a_ID'/></ViewFields>",
+      	completefunc: function (xData2, Status){
+      	var itemCountmatch = $(xData2.responseXML).SPFilterNode("rs:data").attr("ItemCount");
+      	if(itemCountmatch == 1){
+      		active = "1";
+      		}
+      	}
+      	});}
+      	}
+      	if(active=="1"){
+        var liHtml = "<option value='" + $(this).attr("ows_ID") + "' " + selected + ">" + $(this).attr("ows_Title") + "</option>";
+        $("#teamsSelect").append(liHtml);
+        rowcount = rowcount+1;
+        }
+      }});
+      if(rowcount>1){
+        $('.hiddeninit').show();
+        }
+    }
+  	});
+	}});
+	</script>
+	<input type="button" onclick="javascript:__doPostBack('ctl00$m$g_4d6e5b1e_37d0_4607_a716_4687f0253679','true')" value="FILTER by team"/> <input type="button" onclick="javascript:window.location = window.location.href;" value="Show All"/></div></div></div></td>
+			</tr>
+		</table><div class="ms-PartSpacingVertical"></div></td>
+	</tr><tr>
+		<td id="MSOZoneCell_WebPartWPQ9" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="a1edac63-a9ee-4af9-be51-b7c8e64a2feb" HasPers="false" id="WebPartWPQ9" width="100%" class="ms-WPBody noindex" allowDelete="false" style="" ><div id="ctl00_m_g_a1edac63_a9ee_4af9_be51_b7c8e64a2feb">
+					
+
+
+<br /><br />
+						<div>
+							<table><tr><th class="ms-vh" nowrap="nowrap" style="font-size:12px;font-weight:bold;">
+								Sports Information: </th></tr>
+								<tr><td><a href="https://keystone.stpeters.sa.edu.au/wikis/ZL525J/Pages/home.aspx" target="_blank" style="cursor:pointer; "><img alt="Match Results" rel="../PublishingImages/icons/sports-wikis.png" class="rollover" src="../PublishingImages/icons/sports-wikis.png" /></a><br /><br /></td></tr>
+					</table>
+						</div>
+						
+				</div></div></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                </td>
+            </tr>
+        </table>
+
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td id="MSOZoneCell_WebPartWPQ6" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="107f9e6c-0a0f-4671-92e0-0c7290272d06" HasPers="false" id="WebPartWPQ6" width="100%" class="noindex" allowDelete="false" style="" ></div></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+    </div>
+    
+    <div id="full-page-wrapper-bottom">
+    </div>
+    
+    
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+ 
+//rollover swap images with rel 
+  var img_src = "";
+  var new_src = "";
+ 
+    $(".rollover").hover(function(){
+      //mouseover
+ 
+      img_src = $(this).attr('src'); //grab original image
+      new_src = $(this).attr('rel'); //grab rollover image
+      $(this).attr('src', new_src); //swap images
+      $(this).attr('rel', img_src); //swap images
+ 
+    },
+    function(){
+      //mouse out
+ 
+      $(this).attr('src', img_src); //swap images
+      $(this).attr('rel', new_src); //swap images
+    });
+ 
+  //preload images
+    var cache = new Array();
+    //cycle through all rollover elements and add rollover img src to cache array
+    $(".rollover").each(function(){
+      var cacheImage = document.createElement('img');
+      cacheImage.src = $(this).attr('rel');
+      cache.push(cacheImage);
+    }); 
+});
+</script>
+
+
+                
+
+            </div>
+        </div>
+
+        <div style="display:none;">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+    <div id="ctl00_panelZone">
+	<div style='display:none' id='hidZone'></div>
+</div><input type='hidden' id='_wpcmWpid' name='_wpcmWpid' value='' /><input type='hidden' id='wpcmVal' name='wpcmVal' value=''/>
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();var _spFormDigestRefreshInterval = 1440000;//]]>
+</script>
+<script type="text/javascript" >
+<!--
+//-->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+function EnsureScripts(scriptInfoList, finalFunction)
+{
+if (scriptInfoList.length == 0)
+{
+finalFunction();
+}
+else
+{
+var scriptInfo = scriptInfoList.shift();
+var rest = function () { EnsureScripts(scriptInfoList, finalFunction); };
+var defd;
+try
+{
+eval('defd = typeof(' + scriptInfo[1] + ');');
+}
+catch (e)
+{
+defd = 'undefined';
+}
+if (scriptInfo[2])
+{
+EnsureScript(scriptInfo[0], defd, null);
+ExecuteOrDelayUntilScriptLoaded(rest, scriptInfo[0]);
+}
+else
+{
+EnsureScript(scriptInfo[0], defd, rest);
+}
+}
+}
+function PublishingRibbonUpdateRibbon()
+{
+var pageManager = SP.Ribbon.PageManager.get_instance();
+if (pageManager)
+{
+pageManager.get_commandDispatcher().executeCommand('appstatechanged', null);
+}
+}var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{78194f14-4338-4950-ac3f-2703d17213af}",itemId: 1,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: false,forceCheckout: true,rootFolderUrl: "\u002fsports\u002fPages",itemPermissions:{High:48,Low:134414433}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+}
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js"); var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';
+ExecuteOrDelayUntilScriptLoaded(
+function()
+{
+var initInfo = 
+{
+itemPermMasks: {High:48,Low:134414433},
+listPermMasks: {High:48,Low:134414433},
+listId: "78194f14-4338-4950-ac3f-2703d17213af",
+itemId: 1,
+workflowsAssociated: false,
+editable: false,
+doNotShowProperties: false,
+enableVersioning: true
+};
+SP.Ribbon.DocLibAspxPageComponent.registerWithPageManager(initInfo);
+},
+"sp.ribbon.js");
+var g_disableCheckoutInEditMode = false;
+var _spWebPermMasks = {High:48,Low:134414433};function GetPageNormalizedUrl(){    alert('This SharePoint Tags And Notes Tool link is out of date. To get the latest Tags And Notes Tool, click OK. In the Tags and Note Board dialog, click the My Tags link. From here you can access the new SharePoint Tags And Notes tool.');    return document.location.href;}var _openTagDialog_DialogUrl = '';function OpenTagDialog(dialogUrl){    _openTagDialog_DialogUrl = dialogUrl;    SafeRunFunction(_OpenTagDialogInternal, 'SocialData.js', 'TagDialogOpener');}function _OpenTagDialogInternal(){    var normalizer = PageUrlNormalizer.GetInstance();    normalizer.GetUrl('https:\u002f\u002fkeystone.stpeters.sa.edu.au\u002fsports\u002fPages\u002fSportZone.aspx', function(normalizedUrl) {        var url = _openTagDialog_DialogUrl                + '?Title='      + encodeURIComponent(document.title)                + '&Src='        + 'bm'                + '&DisplayUrl=' + encodeURIComponent(document.location.href)                + '&Url='        + encodeURIComponent(normalizedUrl);        var options = 'toolbar=0,status=0,resizable=0,scrollbars=1,width=650,height=400';        if (!window.open(url, null, options))        {            document.location.href = url;        }    });}function InitializeSocialRibbonComponentWrapper_ctl00_ctl08(){    SafeRunFunction(InitializeSocialRibbonComponent_ctl00_ctl08, 'sp.ui.socialribbon.js', 'SP.UI.SocialData.TRCRibbonComponent');}function InitializeSocialRibbonComponent_ctl00_ctl08(){    SP.UI.SocialData.TRCRibbonComponent.RegisterWithPageManager();    var ribbonComponent = SP.UI.SocialData.TRCRibbonComponent.get_Instance();    ribbonComponent['EnableSocialComment'] = true;    ribbonComponent['EnableSocialTag']     = false;    ribbonComponent['ListID']               = '{78194f14-4338-4950-ac3f-2703d17213af}';    ribbonComponent['ResAddMessage']        ='Add Tag...';    ribbonComponent['ResVerifyTypeMessage'] ='Verifying ...';    ribbonComponent.AddQuickTag = function(quickTagId)    {        SafeRunFunction(function ()        {            var adder = new SocialQuickTag('ctl00_ctl08');            adder.title        = document.title;            adder.url          = 'https:\u002f\u002fkeystone.stpeters.sa.edu.au\u002fsports\u002fPages\u002fSportZone.aspx';            adder.tagged_text  = 'Tagged this page with \u0027I Like It.\u0027';            adder.failure_text = 'Failed tagging this page.';            adder.AddQuickTag(quickTagId);        }, 'SocialData.js', 'SocialQuickTag');    };    ribbonComponent.AddQuickTagToListItem = function(quickTagId)    {        var notificationId = addNotification("Add Tag...", true);        var listAndItemIds = this.SelectedListAndItemIds().split('|');        var request = new Object();        request.listid = listAndItemIds[0];        request.itemids = listAndItemIds[1];        request.id     = quickTagId;        WebForm_DoCallback('ctl00$ctl08',Sys.Serialization.JavaScriptSerializer.serialize(request),Function.createDelegate(ribbonComponent, ribbonComponent._OnSucceededCallback),notificationId,Function.createDelegate(ribbonComponent, ribbonComponent._OnFailedCallback),true);    };    return ribbonComponent;}ExecuteOrDelayUntilScriptLoaded(InitializeSocialRibbonComponentWrapper_ctl00_ctl08, 'sp.ribbon.js');function ctl00_ctl08_SocialNavControl_insertMyProfileMenu() {    var menus = document.getElementsByTagName('menu');    if (menus == null)  return;    var menu = null;    for (var i=0, len=menus.length; i<len; i++) {        if (menus[i].id.lastIndexOf('PersonalActionMenu') != -1) {            menu = menus[i]; break;        }    }    if (menu == null)   return;    var elm = document.createElement('ie:menuitem');    elm.setAttribute('menugroupid', '50');    elm.setAttribute('description', 'View and manage your profile.');    elm.setAttribute('text', 'My Profile');    elm.setAttribute('onmenuclick', 'STSNavigate2(event,\'http:\u002f\u002fmy.stpeters.sa.edu.au:80\u002fPerson.aspx\')');    elm.setAttribute('id', 'ID_MySiteLinksMenu');    var elm2 = document.createElement('ie:menuitem');    elm2.setAttribute('menugroupid', '50');    elm2.setAttribute('description', 'Open your personal homepage');    elm2.setAttribute('text', 'My Site');    elm2.setAttribute('onmenuclick', 'STSNavigate2(event,\'http:\u002f\u002fmy.stpeters.sa.edu.au:80\u002f\')');    elm2.setAttribute('id', 'ID_MySiteMenu');    var sep = null;    for (var i=0, len=menu.childNodes.length; i<len; i++) {        if (menu.childNodes[i].id == undefined || menu.childNodes[i].id == '') {            sep = menu.childNodes[i]; break;        }    }    if (sep != null)        menu.insertBefore(sep.cloneNode(true), menu.firstChild);    menu.insertBefore(elm, menu.firstChild);    if (sep != null)        menu.insertBefore(sep.cloneNode(true), menu.firstChild);    menu.insertBefore(elm2, menu.firstChild);};_spBodyOnLoadFunctionNames.push('ctl00_ctl08_SocialNavControl_insertMyProfileMenu');//]]>
+</script>
+<script type="text/javascript">
+// <![CDATA[
+// ]]>
+</script>
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002fsp.core.js?rev=7ByNlH\u00252BvcgRJg\u00252BRCctdC0w\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=b6\u00252FcRx1a6orhAQ\u00252FcF\u00252B0ytQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002fsp.ui.dialog.js?rev=IuXtJ2CrScK6oX4zOTTy\u00252BA\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.core.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f1033\u002fcore.js?rev=thUAOrLfyaU\u00252Fgyxy0eiMiw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002fsp.runtime.js?rev=9sKdsC9N6p2BiRk3313M7Q\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.core.js");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002fsp.js?rev=\u00252FLlKIPQWhhq9mRi404xe\u00252FA\u00253D\u00253D");RegisterSodDep("sp.js", "sp.core.js");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("cui.js", "\u002f_layouts\u002fcui.js?rev=k\u00252B4HtUzT9\u00252B3mSycgD7gPaQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002finplview.js?rev=\u00252Bhds1ETWRgD4PK1iGBqC1A\u00253D\u00253D");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "sp.js");</script>
+<script type="text/javascript">RegisterSod("ribbon", "\u002f_layouts\u002fsp.ribbon.js?rev=F\u00252BUEJ66rbXzSvpf7nN69wQ\u00253D\u00253D");RegisterSodDep("ribbon", "core.js");RegisterSodDep("ribbon", "sp.core.js");RegisterSodDep("ribbon", "sp.js");RegisterSodDep("ribbon", "cui.js");RegisterSodDep("ribbon", "sp.res.resx");RegisterSodDep("ribbon", "sp.runtime.js");RegisterSodDep("ribbon", "inplview");</script>
+<script type="text/javascript">RegisterSod("sp.publishing.resources.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252EPublishing\u00252EResources\u0026rev=q6nxzZIVVXE5X1SPZIMD3A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.pub.ribbon.js", "\u002f_layouts\u002fsp.ui.pub.ribbon.js?rev=RGQSBI9Dm0E345iq\u00252FxUpHg\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("msstring.js", "\u002f_layouts\u002f1033\u002fmsstring.js?rev=QtiIcPH3HV7LgVSO7vONFg\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f1033\u002fie55up.js?rev=UgTcwUTI6YcRzTMBxD93Xg\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("socialdata.js", "\u002f_layouts\u002fsocialdata.js?rev=srp8t6aZS\u00252FjdrW3\u00252FJrn1iQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.socialribbon.js", "\u002f_layouts\u002fsp.ui.socialribbon.js?rev=q7gLNDKo68UsaWoEc\u00252FZCug\u00253D\u00253D");RegisterSodDep("sp.ui.socialribbon.js", "ribbon");RegisterSodDep("sp.ui.socialribbon.js", "socialdata.js");</script>
+<script type="text/javascript">RegisterSod("WPAdderClass", "\u002f_layouts\u002fwpadder.js?rev=hnGJJEMcU5XH\u00252BCq7PlSxJw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSodDep("browserScript", "msstring.js");</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+
+    <script type="text/javascript" src="/_layouts/kbng/Scripts/entityeditor.ie9fix.js?ver=5"></script> 
+</body>
+</html>
+<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
